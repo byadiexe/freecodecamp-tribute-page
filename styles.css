@@ -59,6 +59,12 @@
   color: var(--text);
   font-size: 5rem;
   font-weight: bold;
+  transition: font-size 500ms;
+  cursor: none;
+}
+
+#title:hover {
+  font-size: 6.5rem;
 }
 
 #info {
@@ -75,16 +81,23 @@
 }
 
 #tribute-info {
-  width: 50%;
+  min-width: 60%;
+  width: 60%;
   font-size: 1rem;
   text-transform: uppercase;
   font-family: "Ubuntu Mono", monospace;
 }
 
 #tribute-info h1 {
+  text-align: ce;
   font-size: 3rem;
   font-family: "Playfair Display", serif;
-  padding: 2rem;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .heading {
@@ -110,4 +123,9 @@ a {
   text-decoration: none;
   color: var(--text);
   font-weight: bold;
+  transition: font-size 500ms;
+}
+
+a:hover {
+  font-size: 3rem;
 }
